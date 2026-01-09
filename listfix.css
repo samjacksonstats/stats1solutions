@@ -1,0 +1,48 @@
+/* 1. Space between list items */
+.ltx_itemize > .ltx_item,
+.ltx_enumerate > .ltx_item {
+    margin-bottom: 0.4em;
+}
+
+/* 2. Space lists from surrounding text (general) */
+.ltx_itemize,
+.ltx_enumerate {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* 3. EXTRA space when a list follows a paragraph */
+.ltx_para + .ltx_itemize,
+.ltx_para + .ltx_enumerate,
+.ltx_p + .ltx_itemize,
+.ltx_p + .ltx_enumerate {
+    margin-top: 0.6em;
+}
+
+/* 4. Space displayed equations from surrounding text */
+.ltx_equation,
+.ltx_eqn_div,
+.ltx_eqn_table,
+.ltx_displaymath,
+.ltx_math_display {
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+/* 5. Space between lines in align / eqnarray */
+.ltx_eqn_table .ltx_eqn_cell {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+/* Give paragraphs inside problem/solution items a bottom margin */
+.ltx_item > .ltx_para {
+  margin-bottom: 0.9em;
+}
+
+/* Prevent equations/lists from doubling the space */
+.ltx_item > .ltx_equation,
+.ltx_item > .ltx_itemize,
+.ltx_item > .ltx_enumerate {
+  margin-bottom: 0.9em;
+}
