@@ -13,18 +13,21 @@
 <link rel="up" href="index.html" title="Statistics 1: Problem Sheet">
 <link rel="start" href="index.html" title="Statistics 1: Problem Sheet">
 <link rel="prev" href="index.html" title="Statistics 1: Problem Sheet">
+<link rel="next" href="S2.html" title="2 Disease Testing Using Bayesian Methods ‣ Statistics 1: Problem Sheet">
+<link rel="section" href="S2.html" title="2 Disease Testing Using Bayesian Methods ‣ Statistics 1: Problem Sheet">
 </head>
 <body>
 <nav class="ltx_page_navbar"><a href="index.html" title="" class="ltx_ref" rel="start"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a>
 <nav class="ltx_TOC">
 <ol class="ltx_toclist">
 <li class="ltx_tocentry ltx_tocentry_section ltx_ref_self"><span class="ltx_ref ltx_ref_self"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span><span class="ltx_text ltx_framed ltx_framed_underline">Interpretations of Probability</span></span></span></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="S2.html" title="In Statistics 1: Problem Sheet" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span><span class="ltx_text ltx_framed ltx_framed_underline">Disease Testing Using Bayesian Methods</span></span></a></li>
 </ol></nav>
 </nav>
 <div class="ltx_page_main">
 <header class="ltx_page_header">
 <div class="ltx_align_center">
-<a href="index.html" title="" class="ltx_ref" rel="up"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a><a href="index.html" title="" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a>
+<a href="index.html" title="" class="ltx_ref" rel="up"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a><a href="index.html" title="" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a><a href="S2.html" title="In Statistics 1: Problem Sheet" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span><span class="ltx_text ltx_framed ltx_framed_underline">Disease Testing Using Bayesian Methods</span></span></a>
 </div></header>
 <div class="ltx_page_content">
 <section class="ltx_section">
@@ -123,13 +126,158 @@ However, under a Subjectivist viewpoint, in part (a) she makes a reasonable spec
 </ol>
 </div>
 </li>
+<li id="I1.ix2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">2.</span> 
+<div id="I1.ix2.p1" class="ltx_para">
+<p class="ltx_p">A six-sided die has four green faces and
+two red faces, and is balanced so that each face is equally likely to
+come up. The die will be rolled several times. You must choose one of
+the following three sequences of colours; you will win £100 if
+the first rolls of the die give the sequence that you have chosen.</p>
+<table class="ltx_tabular ltx_centering ltx_align_middle">
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Sequence 1:</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">G</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td"></td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Sequence 2:</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">G</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">G</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_left">Sequence 3:</td>
+<td class="ltx_td ltx_align_center">G</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">R</td>
+<td class="ltx_td ltx_align_center">R</td>
+</tr>
+</tbody>
+</table>
+<p class="ltx_p">Without making any calculations, explain which sequence you
+choose. (In a psychological experiment, 63% of 260 students who had
+not studied probability chose the second sequence. This is evidence
+that our intuitive understanding of probability is not very
+accurate.
+This and other similar experiments are reported by
+A. Tversky and D. Kahneman, <span class="ltx_text ltx_font_italic">Extensional versus intuitive
+reasoning: The conjunction fallacy in probability judgment</span>,
+Psychological Review <span class="ltx_text ltx_font_bold">90</span> (1983), pp. 293–315. The authors were psychologists: Kahneman was subsequently awarded the Nobel Prize in economics (sadly Tversky died and hence missed out on the award).
+Kahneman’s famous book “Thinking Fast and Slow”, available free online, describes many further cases.)</p>
+</div>
+<div id="I1.ix2.p2" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Solution</span>   <span class="ltx_text ltx_font_italic">Without making calculations, the sequences are identical except
+for order for the first five rolls. Consequently, these sequences have
+the same probability up to and including the first five rolls. The
+second and third sequences must now be less probable than the first,
+as an extra roll, with probability less than one, is involved. Hence
+the first sequence is the most probable.</span></p>
+</div>
+<div id="I1.ix2.p3" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Calculation requires the notion of independence. Two methods. Firstly,
+work out the probabilities for the sequences:
+
+
+The probability of a red on an individual roll is <math id="I1.ix2.p3.m1" class="ltx_Math" alttext="\frac{2}{6}=\frac{1}{3}" display="inline"><mrow><mfrac><mn>2</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> and the probability of a green is <math id="I1.ix2.p3.m2" class="ltx_Math" alttext="\frac{2}{3}" display="inline"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>. Hence, since successive rolls are independent, the probability of the first sequence is</span></p>
+<table id="Ex1" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="Ex1.m1" class="ltx_Math" alttext="\frac{1}{3}\times\frac{2}{3}\times\frac{1}{3}\times\frac{1}{3}\times\frac{1}{3%
+}=\frac{2}{243}=0.0082." display="block"><mrow><mrow><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><mo>=</mo><mfrac><mn>2</mn><mn>243</mn></mfrac><mo>=</mo><mn>0.0082</mn></mrow><mo lspace="0em">.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Similarly the probabilities of the other two sequences are</span></p>
+<table id="Ex2" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="Ex2.m1" class="ltx_Math" alttext="\frac{1}{3}\times\frac{2}{3}\times\frac{1}{3}\times\frac{1}{3}\times\frac{1}{3%
+}\times\frac{2}{3}=\frac{4}{729}=0.0055," display="block"><mrow><mrow><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow><mo>=</mo><mfrac><mn>4</mn><mn>729</mn></mfrac><mo>=</mo><mn>0.0055</mn></mrow><mo>,</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">and</span></p>
+<table id="Ex3" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="Ex3.m1" class="ltx_Math" alttext="\frac{2}{3}\times\frac{1}{3}\times\frac{1}{3}\times\frac{1}{3}\times\frac{1}{3%
+}\times\frac{1}{3}=\frac{2}{729}=0.0027." display="block"><mrow><mrow><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo lspace="0.222em" rspace="0.222em">×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow><mo>=</mo><mfrac><mn>2</mn><mn>729</mn></mfrac><mo>=</mo><mn>0.0027</mn></mrow><mo lspace="0em">.</mo></mrow></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">The sequence with highest probability is the first one. For a second
+method, reason as follows. All three sequences begin with five rolls
+containing one green and four reds. The order in which these green and
+reds occur is irrelevent, because of independence. So, let <math id="I1.ix2.p3.m3" class="ltx_Math" alttext="H" display="inline"><mi>H</mi></math> be the
+event that we obtain one green and four reds in the first five rolls.
+The three sequences are now <math id="I1.ix2.p3.m4" class="ltx_Math" alttext="H" display="inline"><mi>H</mi></math>, <math id="I1.ix2.p3.m5" class="ltx_Math" alttext="HG" display="inline"><mrow><mi>H</mi><mo>⁢</mo><mi>G</mi></mrow></math>, and <math id="I1.ix2.p3.m6" class="ltx_Math" alttext="HR" display="inline"><mrow><mi>H</mi><mo>⁢</mo><mi>R</mi></mrow></math>, with probabilities
+<math id="I1.ix2.p3.m7" class="ltx_Math" alttext="P\!\left(H\right)" display="inline"><mrow><mpadded width="0.611em"><mi>P</mi></mpadded><mo>⁢</mo><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow></mrow></math>, <math id="I1.ix2.p3.m8" class="ltx_Math" alttext="P\!\left(H\right)P\!\left(G\right)=\frac{2}{3}P\!\left(H\right)" display="inline"><mrow><mrow><mpadded width="0.611em"><mi>P</mi></mpadded><mo>⁢</mo><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow><mo>⁢</mo><mpadded width="0.611em"><mi>P</mi></mpadded><mo>⁢</mo><mrow><mo>(</mo><mi>G</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>⁢</mo><mpadded width="0.611em"><mi>P</mi></mpadded><mo>⁢</mo><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow></mrow></mrow></math>, and
+<math id="I1.ix2.p3.m9" class="ltx_Math" alttext="P\!\left(H\right)P\!\left(R\right)=\frac{1}{3}P\!\left(H\right)" display="inline"><mrow><mrow><mpadded width="0.611em"><mi>P</mi></mpadded><mo>⁢</mo><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow><mo>⁢</mo><mpadded width="0.611em"><mi>P</mi></mpadded><mo>⁢</mo><mrow><mo>(</mo><mi>R</mi><mo>)</mo></mrow></mrow><mo>=</mo><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>⁢</mo><mpadded width="0.611em"><mi>P</mi></mpadded><mo>⁢</mo><mrow><mo>(</mo><mi>H</mi><mo>)</mo></mrow></mrow></mrow></math>. Clearly, the first sequence is more
+probable than the second, which is more probable than the third.
+</span></p>
+</div>
+</li>
+<li id="I1.ix3" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">3.</span> 
+<div id="I1.ix3.p1" class="ltx_para">
+<p class="ltx_p">Recall De Finetti’s deliberately controversial statement:</p>
+<p class="ltx_p ltx_align_center">“PROBABILITY DOES NOT EXIST”</p>
+<ol id="I1.ix3.I3" class="ltx_enumerate">
+<li id="I1.ix3.I3.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(a)</span> 
+<div id="I1.ix3.I3.i1.p1" class="ltx_para">
+<p class="ltx_p">What did he mean by this statement: where did he suggest probability actually resides?</p>
+</div>
+</li>
+<li id="I1.ix3.I3.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(b)</span> 
+<div id="I1.ix3.I3.i2.p1" class="ltx_para">
+<p class="ltx_p">What do you think of this statement: do you agree with him? (Any answer here is fine!)</p>
+</div>
+</li>
 </ol>
 </div>
+<div id="I1.ix3.p2" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Solution</span></p>
+<ol id="I1.ix3.I4" class="ltx_enumerate">
+<li id="I1.ix3.I4.i1" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(a)</span> 
+<div id="I1.ix3.I4.i1.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">De Finetti was asserting that Probability is not an inherent physical property of the real world, and in fact mainly resides in our heads. Of course
+our subjective views will be greatly influenced and guided by the physical structure of the part of the world in question, but this does not mean probability actually lives in the real world.</span></p>
+</div>
+</li>
+<li id="I1.ix3.I4.i2" class="ltx_item" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">(b)</span> 
+<div id="I1.ix3.I4.i2.p1" class="ltx_para">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Any answer is fine! But some justification would be nice.</span></p>
+</div>
+</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+<div class="ltx_pagination ltx_role_newpage"></div>
 </section>
 </div>
 <footer class="ltx_page_footer">
 <div class="ltx_align_center">
-<a href="index.html" title="" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a>
+<a href="index.html" title="" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a><a href="S2.html" title="In Statistics 1: Problem Sheet" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span><span class="ltx_text ltx_framed ltx_framed_underline">Disease Testing Using Bayesian Methods</span></span></a>
 </div>
 <div class="ltx_page_logo">Generated  by <a href="http://dlmf.nist.gov/LaTeXML/" class="ltx_LaTeXML_logo"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="Mascot Sammy"></a>
 </div></footer>
