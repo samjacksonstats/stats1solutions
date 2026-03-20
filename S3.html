@@ -17,6 +17,8 @@
 <link rel="section" href="S1.html" title="1 Interpretations of Probability ‣ Statistics 1: Problem Sheet">
 <link rel="section" href="S2.html" title="2 Disease Testing Using Bayesian Methods ‣ Statistics 1: Problem Sheet">
 <link rel="section" href="S4.html" title="4 The Frequentist Paradigm ‣ Statistics 1: Problem Sheet">
+<link rel="section" href="S5.html" title="5 The Likelihood ‣ Statistics 1: Problem Sheet">
+<link rel="section" href="S6.html" title="6 The Bayesian Paradigm ‣ Statistics 1: Problem Sheet">
 </head>
 <body>
 <nav class="ltx_page_navbar"><a href="index.html" title="" class="ltx_ref" rel="start"><span class="ltx_text ltx_ref_title">Statistics 1: Problem Sheet</span></a>
@@ -26,6 +28,8 @@
 <li class="ltx_tocentry ltx_tocentry_section"><a href="S2.html" title="In Statistics 1: Problem Sheet" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span><span class="ltx_text ltx_framed ltx_framed_underline">Disease Testing Using Bayesian Methods</span></span></a></li>
 <li class="ltx_tocentry ltx_tocentry_section ltx_ref_self"><span class="ltx_ref ltx_ref_self"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span><span class="ltx_text ltx_framed ltx_framed_underline">US Presidential Election Polling via Frequentist Methods</span></span></span></li>
 <li class="ltx_tocentry ltx_tocentry_section"><a href="S4.html" title="In Statistics 1: Problem Sheet" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span><span class="ltx_text ltx_framed ltx_framed_underline">The Frequentist Paradigm</span></span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="S5.html" title="In Statistics 1: Problem Sheet" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span><span class="ltx_text ltx_framed ltx_framed_underline">The Likelihood</span></span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="S6.html" title="In Statistics 1: Problem Sheet" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">6 </span><span class="ltx_text ltx_framed ltx_framed_underline">The Bayesian Paradigm</span></span></a></li>
 </ol></nav>
 </nav>
 <div class="ltx_page_main">
@@ -163,7 +167,7 @@ in the form of <math id="I1.ix8.I13.i3.p1.m5" class="ltx_Math" alttext="f(x_{1},
 <span class="ltx_tag ltx_tag_item">(a)</span> 
 <div id="I1.ix8.I14.i1.p1" class="ltx_para">
 <p class="ltx_p"><span class="ltx_text ltx_font_italic">We use the suggested trick of maximising the log of </span><math id="I1.ix8.I14.i1.p1.m1" class="ltx_Math" alttext="f(x|n,p)" display="inline"><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo fence="false">|</mo><mrow><mi>n</mi><mo>,</mo><mi>p</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></math><span class="ltx_text ltx_font_italic"> as this is a little easier to differentiate:</span></p>
-<table id="S4.EGx9" class="ltx_equationgroup ltx_eqn_eqnarray ltx_eqn_table">
+<table id="S6.EGx9" class="ltx_equationgroup ltx_eqn_eqnarray ltx_eqn_table">
 
 <tbody id="E2"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
 <td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
@@ -191,7 +195,7 @@ in the form of <math id="I1.ix8.I13.i3.p1.m5" class="ltx_Math" alttext="f(x_{1},
 </tr></tbody>
 </table>
 <p class="ltx_p"><span class="ltx_text ltx_font_italic">therefore an estimate for </span><math id="I1.ix8.I14.i1.p1.m2" class="ltx_Math" alttext="p" display="inline"><mi>p</mi></math><span class="ltx_text ltx_font_italic">, which we denote </span><math id="I1.ix8.I14.i1.p1.m3" class="ltx_Math" alttext="\hat{p}" display="inline"><mover accent="true"><mi>p</mi><mo>^</mo></mover></math><span class="ltx_text ltx_font_italic">, which maximises </span><math id="I1.ix8.I14.i1.p1.m4" class="ltx_Math" alttext="f(x|n,p)" display="inline"><mrow><mi>f</mi><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mrow><mi>x</mi><mo fence="false">|</mo><mrow><mi>n</mi><mo>,</mo><mi>p</mi></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></math><span class="ltx_text ltx_font_italic"> is given by</span></p>
-<table id="S4.EGx10" class="ltx_equationgroup ltx_eqn_eqnarray ltx_eqn_table">
+<table id="S6.EGx10" class="ltx_equationgroup ltx_eqn_eqnarray ltx_eqn_table">
 
 <tbody id="E5"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
 <td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
@@ -442,7 +446,7 @@ than two cases of cancer.</p>
 </div>
 <div id="I1.ix11.p4" class="ltx_para">
 <p class="ltx_p"><span class="ltx_text ltx_font_italic">Approximate using Poisson with <math id="I1.ix11.p4.m1" class="ltx_Math" alttext="\lambda=np=(150)(0.007)=1.05." display="inline"><mrow><mrow><mi>λ</mi><mo>=</mo><mrow><mi>n</mi><mo>⁢</mo><mi>p</mi></mrow><mo>=</mo><mrow><mrow><mo stretchy="false">(</mo><mn>150</mn><mo stretchy="false">)</mo></mrow><mo>⁢</mo><mrow><mo stretchy="false">(</mo><mn>0.007</mn><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mn>1.05</mn></mrow><mo lspace="0em">.</mo></mrow></math> Then,</span></p>
-<table id="S4.EGx11" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
+<table id="S6.EGx11" class="ltx_equationgroup ltx_eqn_align ltx_eqn_table">
 
 <tbody id="Ex45"><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
 <td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
